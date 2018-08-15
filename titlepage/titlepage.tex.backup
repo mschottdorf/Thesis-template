@@ -1,0 +1,111 @@
+%
+%
+%
+%
+%
+%
+%
+%
+\thispagestyle{empty}
+\pagenumbering{gobble}% Remove page numbers (and reset to 1)
+
+\vspace*{-0.1cm}
+\begin{center}
+   {\Huge \textsf{This is the title \vspace{.3cm} of this thesis }\\}
+   \vspace{3cm}
+   {\Large \textbf{Dissertation}\\(Cumulative Dissertation)\\}
+   \vspace{3cm}
+   {\large for a \\
+   \textit{PhD}\\
+    \vspace{.5cm} Division of Mathematics and Natural Sciences \\
+    submitted by}\\
+   \vspace{3cm}
+   {\Large \textbf{my}}\\
+   \vspace{.2cm}
+   {\large from Earth\\
+   \vspace{5cm}
+   Solar System 2018}
+\end{center}
+
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+\newpage
+\thispagestyle{empty}
+\par\vspace*{\fill}
+
+\hspace{-1cm}Thesis committee:
+\begin{itemize}
+ \item Prof. Dr. Spok (Thesis supervisor and 1$^\text{st}$ reviewer) \\
+ \textit{Vulcan Academy of Sciences}
+ \item Capt. Picard (2$^\text{nd}$ reviewer)\\
+ \textit{USS Enterprise}
+ \item Dr. Victor Frankenstein (Thesis cosupervisor)\\
+ \textit{Transylvanian Institute for Experimental Medicine}
+\end{itemize}
+
+\hspace{-1cm}Further members of the examination board:
+\begin{itemize}
+ \item Dr. Henry Jekyll, \\
+ \textit{Dept. Medicine, Miscatonic University}
+ \item Dr. Julius No, \\
+ \textit{Nuclear Engineering, SPECTRE}
+ \item Prof. Dr. William Dyer, \\
+ \textit{Dept. Geology, Miscatonic University}
+\end{itemize}
+\vspace{1cm}
+\hspace{-.5cm}Date of oral examination: August $22^\text{nd}$, 2017
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%%% NICHT MEHR NOETIG SEIT 2012!!
+% \newpage
+% \thispagestyle{empty}
+% \vspace*{1cm}
+% \hspace{-.7cm}{\Large Affidavit\vspace{1cm}\\}
+% I hereby declare that this dissertation entitled ``The reconstitution of visual cortical feature selectivity \textit{in vitro}'' has been written independently and with no other sources and aids than quoted.\\
+% \vspace{3cm}
+% 
+% \begin{flushleft}
+% \begin{tabular}{ll}
+% \makebox[0.1in]{\,} & \makebox[3.5in]{\hrulefill}\\
+% \makebox[2.0in]{\,} & \makebox[3.5in]{Manuel Schottdorf, G\"ottingen, June 2017}\\
+% \end{tabular}
+% \end{flushleft}
+\null
+\newpage
+\thispagestyle{empty}
+%
+%
+%
+%
+%
+%
+%
+%
+\clearpage
+\pagenumbering{arabic} %Now start numbering of pages

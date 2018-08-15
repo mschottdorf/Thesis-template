@@ -1,0 +1,159 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Schottdorf2012}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Schottdorf}{S}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hofmann}{H}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {K{\"{a}}telh{\"{o}}n}{K}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Offenh{\"{a}}usser}{O}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wolfrum}{W}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SM+1}
+  \strng{fullhash}{SMHBKEOAWB1}
+  \field{sortinit}{S}
+  \verb{doi}
+  \verb 10.1103/PhysRevE.85.031917
+  \endverb
+  \field{issn}{1539-3755}
+  \field{number}{3}
+  \field{pages}{1\bibrangedash 7}
+  \field{title}{{Frequency-dependent signal transfer at the interface between
+  electrogenic cells and nanocavity electrodes}}
+  \verb{url}
+  \verb http://link.aps.org/doi/10.1103/PhysRevE.85.031917
+  \endverb
+  \field{volume}{85}
+  \verb{file}
+  \verb :home/manuel/library/Schottdorf et al._2012_Frequency-dependent signal
+  \verb transfer at the interface between electrogenic cells and nanocavity ele
+  \verb ctrodes.pdf:pdf
+  \endverb
+  \field{journaltitle}{Physical Review E}
+  \field{year}{2012}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Schottdorf2013}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Schottdorf}{S}%
+     {Manuel}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Eglen}{E}%
+     {Stephen~J}{SJ}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wolf}{W}%
+     {Fred}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Keil}{K}%
+     {Wolfgang}{W}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SM+2}
+  \strng{fullhash}{SMESJWFKW1}
+  \field{sortinit}{S}
+  \verb{doi}
+  \verb 10.1371/journal.pone.0086139
+  \endverb
+  \field{number}{1}
+  \field{pages}{e86139}
+  \field{title}{{Can Retinal Ganglion Cell Dipoles Seed Iso-Orientation Domains
+  in the Visual Cortex?}}
+  \field{volume}{9}
+  \verb{file}
+  \verb :home/manuel/library/Schottdorf et al._2014_Can Retinal Ganglion Cell D
+  \verb ipoles Seed Iso-Orientation Domains in the Visual Cortex.PDF:PDF
+  \endverb
+  \field{journaltitle}{PLoS ONE}
+  \field{year}{2014}
+\endentry
+
+\entry{Schottdorf2015}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Schottdorf}{S}%
+     {Manuel}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Keil}{K}%
+     {Wolfgang}{W}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Coppola}{C}%
+     {David}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {White}{W}%
+     {Leonard~E}{LE}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SM+2}
+  \strng{fullhash}{SMKWCDWLE1}
+  \field{sortinit}{S}
+  \verb{doi}
+  \verb 10.1371/journal.pcbi.1004602
+  \endverb
+  \field{number}{11}
+  \field{pages}{e1004602}
+  \field{title}{{Random Wiring, Ganglion Cell Mosaics, and the Functional
+  Architecture of the Visual Cortex}}
+  \field{volume}{11}
+  \verb{file}
+  \verb :home/manuel/library/Schottdorf et al._2015_Random Wiring, Ganglion Cel
+  \verb l Mosaics, and the Functional Architecture of the Visual Cortex.pdf:pdf
+  \endverb
+  \field{journaltitle}{PLoS Computational Biology}
+  \field{year}{2015}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

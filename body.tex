@@ -1,0 +1,90 @@
+\documentclass[a4paper,11pt]{memoir}
+
+\usepackage[utf8,latin1]{inputenc}
+\usepackage[final]{pdfpages}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{textcomp}
+\usepackage{caption}
+\usepackage[version=3]{mhchem}
+\usepackage{url}
+\usepackage{wasysym}
+\usepackage{longtable}
+\usepackage{afterpage}
+\usepackage[hidelinks]{hyperref}
+\usepackage{booktabs} 
+\usepackage{colortbl} 
+\usepackage{xcolor} 
+\usepackage{xfrac}
+\usepackage{lipsum}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bibliography stuff
+\usepackage[backend=bibtex8,terseinits=true,firstinits=true,natbib=true,sortcites]{biblatex}
+% \usepackage[backend=bibtex8,terseinits=true,firstinits=true,natbib=true]{biblatex}
+
+\usepackage[babel, german=quotes]{csquotes}
+\AtEveryBibitem{
+  \clearfield{issn}
+  \clearfield{url}
+  \clearfield{doi}
+  \clearfield{number}
+  \clearfield{day}
+  \clearfield{month}
+  \clearfield{endday}
+  \clearfield{endmonth}
+}
+\DeclareFieldFormat[article]{volume}{\textbf{#1}}
+\renewcommand{\cite}[1]{\textcolor{blue}{\supercite{#1}}}
+\bibliography{./library.bib} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Memoir Styles
+\setulmarginsandblock{3cm}{3cm}{*}
+\setlrmarginsandblock{3cm}{2cm}{*}
+\renewcommand{\epigraphflush}{center}
+\renewcommand{\epigraphwidth}{0.9\textwidth}
+\checkandfixthelayout
+\chapterstyle{madsen}
+\pagestyle{ruled}
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \newpage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\mainmatter
+\include{./titlepage/titlepage}
+\vspace*{-0.15\textheight}
+\tableofcontents
+%
+\chapter{Introduction}
+\input{./introduction/introduction}
+%
+%
+\chapter{Title of Mainchapter 1}
+\input{./chapter_1/chapter_1}
+% %
+% %
+\chapter{Titlle of Mainchapter 2}
+\input{./chapter_2/chapter_2}
+% %
+%
+%
+\backmatter
+\printbibliography
+%
+%
+\chapter{Acknowledgements and CV}
+\input{./acknowledgements/acknowledgements}
+%
+%
+
+\end{document}
